@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+
+        <title>Pionowa nawigacja</title>
+        <meta name="description" content="" />
+        <meta name="author" content="Fixweb.pl - Ola Wolska, Hubert Tulibacki" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+        <link rel="shortcut icon" href="http://grafmag.pl/wp-content/themes/grafmag/img/favicon.ico" />
+        <link rel="stylesheet" href="css/style.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="js/tools.js"></script>
+    </head>
+    <body>
+        <section id="first" class="anchor">
+            <div id="container">
+			<center>
+			
+			<div class="txt1" > 
+
+				<br><br><br><br>
+				<p style="text-indent: 0% ; margin-top: 4px; margin-bottom: 15px; line-spacing:single; -font-family:aumaticc;"> 
+				Aumatic jest firmą zajmującą się projektowaniem i budową maszyn oraz linii montażowych.
+				Firma wykonuje pojedyncze stanowiska montażowe oraz kompletne linie technologiczne - projektowane według wymagań klienta - na bazie 
+				własnych projektów lub zleconej dokumentacji.</p>
+
+				<p style="text-indent: 0% ; margin-top: 0px; margin-bottom: 15px; line-spacing:single; -font-family:aumaticc;"> 
+				Aby sprostać tym wymaganiom otrzymane zlecenia realizujemy w oparciu o własną kadrę inżynierską oraz doświadczonych 
+				i wykwalifikowanych pracowników na każdym etapie produkcji.
+				Posiadamy dobrze wyposażony warsztat narzędziowy oraz niezbędną powierzchnię do budowania dużych linii technologicznych.</p>
+
+				<p style="text-indent: 0% ; margin-top: 0px; margin-bottom: 15px; line-spacing:single; -font-family:aumaticc;"> 
+				Oferta nasza skierowana jest głównie do producentów części i podzespołów samochodowych, producentów AGD
+				oraz przemysłu elektro-mechanicznego - jednocześnie pozostajemy otwarci na współpracę z firmami z innych gałęzi przemysłu. 
+				Standardowo do sterowania wykorzystujemy sterowniki PLC / PAC wiodących firm a do komunikacji z operatorem panele HMI. </p>
+
+				<p style="text-indent: 0% ; margin-top: 0px; margin-bottom: 15px; line-spacing:single; -font-family:aumaticc;"> 
+				Wykonujemy również stanowiska zrobotyzowane, maszyny pomiarowe, testujące i wymagające inspekcji wizyjnych
+				na bazie standardowych PLC lub PC w środowisku NI LabView, NI LabWindows™/CVI lub NI Measurement Studio.</p>
+
+				<p style="text-indent: 0% ; margin-top: 0px; margin-bottom: 15px; line-spacing:single; -font-family:aumaticc;"> 
+				Dodatkowo proponujemy Państwu ofertę własnych systemów Traceability współpracujących z maszynami i liniami technologicznymi.</p>
+
+			</div>
+			
+			<br>
+			
+	<center><div id="player"></div></center>
+
+    <script>
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '360',
+          width: '640',
+          videoId: 'GWrB9yIT2rs',
+		  playerVars: { 'showinfo': 0, 'rel': 0},
+
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        //event.target.playVideo();
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+         // setTimeout(stopVideo, 6000);
+          //done = true;
+        }
+      }
+      //function stopVideo() {
+        //player.stopVideo();
+      //}
+	  
+	  
+</script>
+			
+			</center>
+			</div>
+        </section>
+        
+        <section id="second" class="anchor">
+            <div id="container">
+			<center><br><br><br><br><br><font size="7" color="">STRUKTURA</font></center>
+
+			</div>
+        </section>
+       
+        <section id="third" class="anchor">
+            <div id="container">
+			<center><br><br><br><br><br><font size="7" color="">PRODUKTY</font></center>
+			</div>
+        </section>
+        
+        <section id="fourth" class="anchor">
+            <div id="container">
+			<center><br><br><br><br><br><font size="7" color="">TECHNOLOGIE</font></center>
+			</div>
+        </section>
+        
+        <section id="fifth" class="anchor">
+            <div id="container">
+			<center><br><br><br><br><br><font size="7" color="">KLIENCI</font></center>
+			</div>
+        </section>
+        
+        <section id="sixth" class="anchor">
+            <div id="container">
+			<center><br><br><br><br><br><font size="7" color="">KONTAKT</font></center>
+			</div>
+        </section>
+		
+		<section id="seventh" class="anchor">
+            <div id="container">
+			<center><br><br><br><br><br><font size="7" color="">KARIERA</font></center>
+			</div>
+        </section>
+        
+        <!--<nav id="sidenav">
+            
+                <a href="#first">1</a>
+                <a href="#second">2</a>
+                <a href="#third">3</a>
+                <a href="#foruth">4</a>
+                <a href="#fifth">5</a>
+                <a href="#sixth">6</a>
+				
+            
+        </nav>-->
+		
+		
+		
+	<nav id="sidenav" >
+	<center>
+
+		<ul style="width: 970px">
+			<li><a href="#first">FIRMA</a></li>
+			<li><a href="#second">STRUKTURA</a></li>
+			<li><a href="#third">PRODUKTY</a></li>
+			<li><a href="#fourth">TECHNOLOGIE</a></li>
+			<li><a href="#fifth">KLIENCI</a></li>
+			<li><a href="#sixth">KONTAKT</a></li>
+			<li style="border-right:1px solid black;"><a href="#seventh">KARIERA</a></li>
+		</ul> 
+
+	</center>
+	</nav>	
+
+    </body>
+</html>
+
+
+

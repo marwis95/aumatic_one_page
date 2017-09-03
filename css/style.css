@@ -1,0 +1,96 @@
+@font-face{
+font-family: aumaticc;
+src:url(../fonts/Prime-Regular.otf);
+}
+
+html, body {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+* {margin:0 auto;padding:0;}
+
+section {
+    height: 1000px;
+}
+
+#first {
+    background: #d4d4d4 scroll no-repeat center center;
+}
+
+#second {
+    background: #d4d4d4 scroll no-repeat center center;
+}
+
+#third {
+    background: #d4d4d4 scroll no-repeat center center;
+}
+
+#fourth {
+    background: #d4d4d4 scroll no-repeat center center;
+}
+
+#fifth {
+    background: #d4d4d4 scroll no-repeat center center;
+}
+
+#sixth {
+    background: #d4d4d4 scroll no-repeat center center;
+}
+
+#seventh {
+    background: #d4d4d4 scroll no-repeat center center;
+    height: 1200px;
+}
+
+#sidenav {
+    position: fixed;
+    top: 108px;
+    height: 216px;
+    margin-top: -108px;
+	background:#111; color: #fff; height: 50px; width: 100%; background: url('tlo_tvn.png');
+}
+
+
+#container {background: #364572; min-height:1000px; width:950px; opacity:1;  padding-left:10px;  padding-right:10px;}
+
+
+#sidenav ul {list-style-type: none; margin: 0 auto; padding: 0px; width: 970px} 
+
+#sidenav li {font-size:23px; padding: 1px; border-left:1px solid black; display: table-cell; width: 10em; height: 39px; font-family: aumaticc;}
+
+#sidenav li:hover {background-color:#01243e; }
+
+#sidenav li a {
+
+}
+
+#sidenav li a:visited {
+	color: #ffffff;
+}
+
+#sidenav li.active {
+	background: url('active.png'); height: 39px;
+	color: #ffffff;
+}
+
+
+a:link {text-decoration:none; color: #c8d7ec;}
+
+a:visited {text-decoration:none; color: #c8d7ec;}
+
+a:hover{text-decoration:none; color: #c8d7ec;}
+
+
+.txt1{color:#FFFFFF; font-family:helvetica; text-align:left}
+
+.player{
+  width: 640px;
+  height: 360px;
+  background-color: white;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
