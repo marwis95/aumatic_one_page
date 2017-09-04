@@ -14,6 +14,10 @@ section {
     height: 1000px;
 }
 
+#welcome {
+    background: #d4d4d4 scroll no-repeat center center; 
+}
+
 #first {
     background: #d4d4d4 scroll no-repeat center center;
 }
@@ -54,6 +58,9 @@ section {
 
 #container {background: #364572; min-height:1000px; width:950px; opacity:1;  padding-left:10px;  padding-right:10px;}
 
+#container_welcome {background: #364572; height:100%; opacity:1;  padding-left:0px; margin:0 auto; background: url('../img/welcome.png');   
+					background-repeat: no-repeat; background-size: 100% 100%; -moz-background-size: 100% 100%;}
+				
 
 #sidenav ul {list-style-type: none; margin: 0 auto; padding: 0px; width: 970px} 
 
