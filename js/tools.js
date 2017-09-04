@@ -65,7 +65,7 @@ $(function() {
             return true;
         });
     }
-    
+     
     if (document.location.hash != '') {
         var el = $(document.location.hash);
         if (el.length > 0) {
