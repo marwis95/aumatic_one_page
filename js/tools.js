@@ -107,20 +107,23 @@ function stopPlaying () {
 			
 			switch (tlo) {
 			case 1:
+			$("#container_welcome").addClass('container_welcome_1');
 				$("#container_welcome").removeClass('container_welcome_3');
-				$("#container_welcome").addClass('container_welcome_1');
+				
 				tlo = 2;
 				console.log(tlo);
 				break;
 			case 2:
+			$("#container_welcome").addClass('container_welcome_2');
 				$("#container_welcome").removeClass('container_welcome_1');
-				$("#container_welcome").addClass('container_welcome_2');
+				
 				tlo = 3;
 				console.log(tlo);
 				break
 			case 3:
+			$("#container_welcome").addClass('container_welcome_3');
 				$("#container_welcome").removeClass('container_welcome_2');
-				$("#container_welcome").addClass('container_welcome_3');
+				
 				tlo = 1;
 				console.log(tlo);
 				break;
