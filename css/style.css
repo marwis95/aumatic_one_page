@@ -15,35 +15,35 @@ section {
 }
 
 #welcome {
-    background: #d4d4d4 scroll no-repeat center center; 
+    background: #364572 scroll no-repeat center center;   position:relative;  
 }
 
 #first {
-    background: #d4d4d4 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center;
 }
 
 #second {
-    background: #d4d4d4 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center;
 }
 
 #third {
-    background: #d4d4d4 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center;
 }
 
 #fourth {
-    background: #d4d4d4 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center;
 }
 
 #fifth {
-    background: #d4d4d4 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center;
 }
 
 #sixth {
-    background: #d4d4d4 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center;
 }
 
 #seventh {
-    background: #d4d4d4 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center;
     height: 1200px;
 }
 
@@ -58,7 +58,13 @@ section {
 
 #container {background: #364572; min-height:1000px; width:950px; opacity:1;  padding-left:10px;  padding-right:10px;}
 
-#container_welcome {background: #364572; height:100%; opacity:1;  padding-left:0px; margin:0 auto; background: url('../img/welcome/welcome_4.jpg');   
+.container_welcome_1 {background: #364572; height:100%; opacity:1;  padding-left:0px; margin:0 auto; background: url('../img/welcome/welcome_4.jpg');   
+					background-repeat: no-repeat; background-size: 100% 100%; -moz-background-size: 100% 100%;}
+					
+.container_welcome_2 {background: #364572; height:100%; opacity:1;  padding-left:0px; margin:0 auto; background: url('../img/welcome/welcome_1.jpg');   
+					background-repeat: no-repeat; background-size: 100% 100%; -moz-background-size: 100% 100%;}					
+					
+.container_welcome_3 {background: #364572; height:100%; opacity:1;  padding-left:0px; margin:0 auto; background: url('../img/welcome/welcome_2.jpg');   
 					background-repeat: no-repeat; background-size: 100% 100%; -moz-background-size: 100% 100%;}
 				
 
@@ -89,7 +95,7 @@ a:visited {text-decoration:none; color: #c8d7ec;}
 a:hover{text-decoration:none; color: #c8d7ec;}
 
 
-.txt1{color:#FFFFFF; font-family:helvetica; text-align:left}
+.txt1{color:#FFFFFF; font-family:helvetica; text-align:left;}
 
 .player{
   width: 640px;
@@ -100,3 +106,12 @@ a:hover{text-decoration:none; color: #c8d7ec;}
   margin-right: auto;
   text-align: center;
 }
+
+
+.automatyka{color: #f0f0f0; font-family: aumaticc; text-align: center;     position:absolute;
+    top:50%; left:50%;  transform: translateX(-50%) translateY(-50%); width: 100%; text-shadow:0 0 6px red;}
+	
+	
+.automatyka_przemyslowa{font-size: 75px;}
+
+.maszyny_montazowe{font-size: 30px;}
