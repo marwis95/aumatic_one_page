@@ -100,7 +100,7 @@ function stopPlaying () {
 	})
 }
 
-			var tlo=1;
+			/*var tlo=1;
 			
 			setTimeout ( "ZmianaObrazka()", 6000 );
 			function ZmianaObrazka ( ){
@@ -132,5 +132,5 @@ function stopPlaying () {
 				
 				setTimeout ( "ZmianaObrazka()", 6000 );
 				
-			}
+			}*/
 

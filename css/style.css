@@ -14,8 +14,12 @@ section {
     height: 1000px;
 }
 
+#body{
+	background: #364572;
+}
+
 #welcome {
-    background: #364572 scroll no-repeat center center;   position:relative;  
+    background:  scroll no-repeat center center;   position:relative;  
 }
 
 #first {
