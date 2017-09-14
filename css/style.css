@@ -76,7 +76,7 @@ section {
 
 #sidenav li {font-size:23px; padding: 1px; border-left:1px solid black; display: table-cell; width: 10em; height: 39px; font-family: aumaticc;}
 
-#sidenav li:hover {background-color:#01243e; } /*kolor aktywnego elementu*/
+#sidenav li:hover {background-color:#003399; } /*kolor aktywnego elementu*/
 
 #sidenav li a {
 
