@@ -11,7 +11,7 @@ html, body {
 * {margin:0 auto;padding:0;}
 
 section {
-    height: 1000px;
+  height: 1000px;
 }
 
 #body{
@@ -23,23 +23,23 @@ section {
 }
 
 #first {
-    background: #364572 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center; min-height:1800px;
 }
 
 #second {
-    background: #364572 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center; min-height:3200px;
 }
 
 #third {
-    background: #364572 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center; min-height:900px;
 }
 
 #fourth {
-    background: #364572 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center; min-height:1900px;
 }
 
 #fifth {
-    background: #364572 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center; min-height:1400px;
 }
 
 #sixth {
@@ -100,6 +100,10 @@ a:hover{text-decoration:none; color: #c8d7ec;}
 
 
 .txt1{color:#FFFFFF; font-family:helvetica; text-align:left;}
+
+.txt2{color:#FFFFFF; font-family:arial; font-size: 15px;}
+
+.litera{color:#FFFFFF; font-family:arial; font-size: 40px;}
 
 .player{
   width: 640px;
