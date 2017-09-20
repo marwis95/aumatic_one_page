@@ -23,7 +23,7 @@ section {
 }
 
 #first {
-    background: #364572 scroll no-repeat center center; min-height:1800px;
+    background: #364572 scroll no-repeat center center; min-height:1300px;
 }
 
 #second {
@@ -103,7 +103,7 @@ a:hover{text-decoration:none; color: #c8d7ec;}
 
 .txt2{color:#FFFFFF; font-family:arial; font-size: 15px;}
 
-.litera{color:#FFFFFF; font-family:arial; font-size: 40px;}
+.litera{color:#FFFFFF; font-family:aumaticc; font-size: 40px;}
 
 .player{
   width: 640px;
