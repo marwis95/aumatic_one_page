@@ -31,7 +31,7 @@ section {
 }
 
 #third {
-    background: #364572 scroll no-repeat center center; min-height:900px;
+    background: #364572 scroll no-repeat center center; min-height:1200px;
 }
 
 #fourth {
@@ -43,7 +43,7 @@ section {
 }
 
 #sixth {
-    background: #364572 scroll no-repeat center center;
+    background: #364572 scroll no-repeat center center;min-height:1200px;
 }
 
 #seventh {
@@ -76,7 +76,7 @@ section {
 
 #sidenav li {font-size:23px; padding: 1px; border-left:1px solid black; display: table-cell; width: 10em; height: 39px; font-family: aumaticc;}
 
-#sidenav li:hover {background-color:#003399; } /*kolor aktywnego elementu*/
+#sidenav li:hover {background-color:#002d51; } /*kolor aktywnego elementu*/
 
 #sidenav li a {
 
